@@ -6,3 +6,4 @@
 Use the CobaltStrikeParser extract public key from the payload https://github.com/Sentinel-One/CobaltStrikeParser  parse_beacon_config.py payload_url --json
 
 Remember to remove the extra padding from the public key
+![](CSMOCK.png)

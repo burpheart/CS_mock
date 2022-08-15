@@ -9,17 +9,17 @@ Remember to remove the extra padding from the public key
 ![](CSMOCK.png)
 
 
+matadata 协议结构
 
-
-
+``` 
         ┌─────────────────────────────────────────────────┐
         │                      head                       │
         ├──────────────────────────┬──────────────────────┤
         │         4  Byte          │      4  Byte         │
         ├──────────────────────────┼──────────────────────┤
-        │    magic 00 00 be bf     │     mtadata_len      │
+        │    magic 00 00 be bf     │     metadata_len     │
         ├──────────────────────────┴──────────────────────┤
-        │                     matedata                    │
+        │                     metadata                    │
         ├─────────────────────────────────────────────────┤
         │                     16 Byte                     │
         ├─────────────────────────────────────────────────┤
@@ -38,4 +38,4 @@ Remember to remove the extra padding from the public key
         │inner_ip_addr│ computername username processname │
         └─────────────┴───────────────────────────────────┘
 
-
+```
